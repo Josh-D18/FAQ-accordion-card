@@ -1,10 +1,9 @@
 import './App.css';
+import Accordion from './components/Accordion';
 
 function App() {
   return (
-    <div>
-      <h1 className='font-primary font-[700]'>Hello World</h1>
-    </div>
+      <Accordion/>
   );
 }
 

@@ -1,0 +1,16 @@
+.container{
+    @apply w-full h-full pt-[148px] pb-[85px];
+    background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+}
+
+.title{
+    @apply w-[67px] h-[32px] font-primary text-[32px] leading-[39.69px] text-tertiary-200 pb-[38px] mx-auto;
+}
+
+.content-container{
+    @apply bg-primary-200 w-[327px] h-[535px] rounded-[23px] mx-auto;
+}
+
+.text-container{
+    @apply mx-auto
+}
