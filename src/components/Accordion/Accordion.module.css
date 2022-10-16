@@ -1,10 +1,10 @@
 .container{
-    @apply w-full h-full pt-[148px] pb-[85px];
+    @apply w-full h-full pb-[85px];
     background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
 }
 
 .title{
-    @apply w-[67px] h-[32px] font-primary text-[32px] leading-[39.69px] text-tertiary-200 pb-[38px] mx-auto;
+    @apply font-primary font-[700] w-[67px] h-[32px] font-primary text-[32px] leading-[39.69px] text-tertiary-200 pb-[38px] mx-auto pt-[60px];
 }
 
 .content-container{
@@ -17,4 +17,8 @@
 
 .women-mobile-img{
     @apply max-w-[237px] max-h-[180px] mx-auto ;
+}
+
+.bg-mobile-pattern-img{
+    @apply max-w-[240px] max-h-[145px]
 }

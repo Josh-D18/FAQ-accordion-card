@@ -1,8 +1,15 @@
 .dropdown-title-container{
-    @apply flex justify-between items-center mx-[24px];
+    @apply flex justify-between items-center mx-[24px] ;
 }
 
-
 .dropdown-title{
-    @apply w-[279px] h-[34px] text-[13px] text-left mr-[35px];
+    @apply w-[279px] h-[34px] text-[13px] text-left mr-[35px] leading-[16px] font-primary not-italic;
+}
+
+.dropdown-description{
+    @apply leading-[18px] not-italic font-[400] text-[12px] font-primary text-tertiary-100 mx-[24px] w-[279px] mt-[12px];
+}
+
+.line{
+    @apply w-[279px] border-secondary-500 border-b-[1px] mt-[18px] mx-[24px];
 }

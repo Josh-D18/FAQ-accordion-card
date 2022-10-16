@@ -1,14 +1,13 @@
 interface IImage {
-  Image: SVGSVGElement | any;
+  Image: React.FC<React.SVGProps<SVGSVGElement>>;
   imgClass: {[key: string]: string};
   classname: string;
-  alt:string;
 }
 
 const Image = (props: IImage) => {
-    const {Image, imgClass, classname, alt} = props;
+    const {Image, imgClass, classname} = props;
 
-  return <Image className={imgClass[classname]} alt={alt}/>;
+  return <Image className={imgClass[classname]} aria-hidden={true}/>;
 };
 
 export default Image;
