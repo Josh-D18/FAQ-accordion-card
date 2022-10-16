@@ -1,0 +1,8 @@
+.dropdown-title-container{
+    @apply flex justify-between items-center mx-[24px];
+}
+
+
+.dropdown-title{
+    @apply w-[279px] h-[34px] text-[13px] text-left mr-[35px];
+}
